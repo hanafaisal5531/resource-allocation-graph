@@ -12,9 +12,9 @@
                 extend: {
                     colors: {
                         // High Contrast Dark Theme Palette (Based on user request)
-                        'bg-dark': '#020617',        // Primary Background (Near Black)
-                        'card-dark': '#020b2a',      // Panels/Visualization background (Deep Blue)
-                        'sub-card': '#1e293b',       // Metrics/List Background (Visible Separators)
+                        'bg-dark': '#020617',        
+                        'card-dark': '#020b2a',      
+                        'sub-card': '#1e293b',       
                         'border-color': '#1e293b',   // Stronger Borders
                         
                         // Node Colors (Bright for High Contrast)
@@ -156,9 +156,6 @@
         const SVG_WIDTH = 700;
         const SVG_HEIGHT = 480;
         
-        /**
-         * Helper to resolve Tailwind color names to their actual hex values using the defined config.
-         */
         function resolveColor(colorName) {
             const colors = tailwind.config.theme.extend.colors;
             if (colors[colorName]) return colors[colorName];
@@ -796,4 +793,5 @@
 
     </script>
 </body>
+
 </html>
