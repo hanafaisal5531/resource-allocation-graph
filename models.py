@@ -6,4 +6,5 @@ class NodeCreate(BaseModel):
 class EdgeCreate(BaseModel):
     source: str
     target: str
-    type: str  # "request" or "allocation"
+    type: str 
+
