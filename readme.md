@@ -1,4 +1,4 @@
-# 🧠 Resource Allocation Graph (RAG) Deadlock Simulator
+# 🧠 Resource Allocation Graph (RAG) & Deadlock Simulator
 
 An interactive **Operating Systems simulator** to visualize **Resource Allocation Graphs (RAG)** and detect **deadlocks** using **DFS-based cycle detection**.
 The system follows correct OS semantics by strictly enforcing **Process–Resource relationships** and provides real-time feedback through a graphical interface.
@@ -254,6 +254,7 @@ Invalid actions (e.g., Process → Process) are automatically blocked.
 * DFS traversal is performed
 * A recursion stack is maintained
 * Presence of a cycle ⇒ **Deadlock**
+
 
 
 
