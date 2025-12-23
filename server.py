@@ -62,7 +62,7 @@ def remove_edge(source: str, target: str):
     rag.remove_edge(source, target)
     return rag.snapshot()
 
-# ---------- DEADLOCK ----------
+# --------- DEADLOCK ---------
 
 @app.get("/deadlock")
 def detect_deadlock():
@@ -70,3 +70,4 @@ def detect_deadlock():
         "deadlock_detected": len(rag.detect_deadlock()) > 0,
         "nodes": rag.detect_deadlock()
     }
+
