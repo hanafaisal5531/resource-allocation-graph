@@ -71,4 +71,7 @@ class ResourceAllocationGraph:
             "resources": list(self.resources.values()),
             "edges": self.edges,
             "deadlocked_nodes": self.detect_deadlock()
+
+            
         }
+
